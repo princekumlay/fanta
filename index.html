@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Fanta with scroll Animation using GSAP</title>
+</head>
+<body>
+    <div id="main" data-speed = "0.5"> 
+        <nav>
+            <a href="#">Logo</a>
+            <div class="cntr-nav">
+                <a href="#">Home</a>
+                <a href="#">Products</a>
+                <a href="#">Shop</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <i class="ri-menu-fill"></i>
+        </nav>
+        <div class="one">
+            <h1 class="fanta-heading">Fanta</h1>
+            <img id="orangecut" src="images/orangecut.png" alt="">
+            <img id="fanta" src="images/fanta.png" alt="">
+            <img id="orange" src="images/orange.png" alt="">
+            <img id="orangeLeaf" src="images/orangeLeaf.png" alt="">
+            <!-- <img id="orangeleaves" src="images/orangeleaves.png" alt=""> -->
+        </div>
+        <div class="two">
+           <div class="left-two">
+            <svg id="svg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#FA4D56" d="M37.8,-32.8C51.6,-24.1,67,-12,67.8,0.8C68.6,13.6,54.8,27.3,41,36.4C27.3,45.5,13.6,50.2,-4.1,54.2C-21.7,58.3,-43.5,61.8,-59,52.6C-74.6,43.5,-84,21.7,-83.8,0.2C-83.6,-21.3,-73.8,-42.7,-58.2,-51.4C-42.7,-60.2,-21.3,-56.4,-4.7,-51.7C12,-47.1,24.1,-41.6,37.8,-32.8Z" transform="translate(100 100)" />
+              </svg>
+           </div>
+           <div class="right-two">
+            <h1>Flavour Enhanced</h1>
+            <p>Carbonated Water, Sugar, Acidifier: Citric Acid, Natural Orange Flavors, Preservative: Potassium Sorbate, Vitamin C, Color: Sunset Yellow*, Antioxidant: Calcium Disodium(EDTA).*This material may  have a negative effect on activity and concentration in Children.</p>
+           </div>
+        </div>
+        <div class="three">
+            <div class="card card1">
+                <img id="orange-behind" class="orange-behind1" src="images/orangecut.png" alt="">
+                <img id="sprite-can" src="images/sprite.png" alt="">
+                <h1>sprite</h1>
+                <button>Buy Now</button>
+            </div>
+            <div class="card card2">
+                <h1>fanta</h1>
+                <button>Buy Now</button>
+            </div>
+            <div class="card card3">
+                <img id="orange-behind" class="orange-behind2" src="images/orangecut.png" alt="">
+                <img id="coke-can" src="images/coke.png" alt="">
+                <h1>coca cola</h1>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
